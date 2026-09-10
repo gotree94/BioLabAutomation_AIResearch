@@ -17,8 +17,9 @@
 8. [카테고리 F: 해외 유명 학교·연구소·연구 그룹](#카테고리-f-해외-유명-학교연구소연구-그룹)
 9. [카테고리 G: 해외 개발 업체](#카테고리-g-해외-개발-업체)
 10. [카테고리 H: 정부 과제·국책사업 (자율실험실·바이오파운드리)](#카테고리-h-정부-과제국책사업-자율실험실바이오파운드리)
-11. [선택 전략 및 추천 접근 방식](#선택-전략-및-추천-접근-방식)
-12. [참고자료 및 출처](#참고자료-및-출처)
+11. [오픈소스 SDL 자료·코드 (다운로드/학습용)](#오픈소스-sdl-자료코드-다운로드학습용)
+12. [선택 전략 및 추천 접근 방식](#선택-전략-및-추천-접근-방식)
+13. [참고자료 및 출처](#참고자료-및-출처)
 
 ---
 
@@ -345,6 +346,50 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 
 ---
 
+## 오픈소스 SDL 자료·코드 (다운로드/학습용)
+
+SDL(자율실험실)을 직접 구현하거나 연구에 활용하기 위한 **오픈소스 소프트웨어·데이터·표준** 자료 모음입니다. 2026년 검색 기준이며, 대부분 GitHub/PyPI에서 직접 다운로드할 수 있습니다.
+
+### 1. SDL 오케스트레이션 프레임워크 (실험 계획-로봇 수행-데이터 수집 폐루프 SW)
+- **ChemOS 2.0** (토론토대 Matter Lab · Aspuru-Guzik 그룹) — 실험실을 "운영체제"처럼 오케스트레이션하는 모듈형 아키텍처, SiLA2 표준 기반 기기 통신, 유기 레이저 물질 탐색 사례 포함
+  - GitHub(코드+실데이터): https://github.com/malcolmsimgithub/ChemOS2.0 (MIT)
+  - 논문(Matter 2024): https://www.cell.com/matter/fulltext/S2590-2385(24)00195-4 , ChemRxiv: https://chemrxiv.org/doi/10.26434/chemrxiv-2023-v2khf
+- **MADSci** (아르곤 국립연구소 AD-SDL) — 모듈형·확장형 자율실험 프레임워크. 장비 통합(REST), 워크플로·폐루프 실험·자원/데이터/이벤트 관리, OpenTelemetry 기반 관측성 포함. `pip install madsci`, Docker 예시 랩 제공
+  - GitHub: https://github.com/AD-SDL/MADSci , PyPI: https://pypi.org/project/madsci
+  - 참고용 WEI(전신)·Polybot·데모 랩: https://github.com/AD-SDL
+- **ARES OS 2.0** (미국 공군연구소 AFRL, 2026) — 서비스 지향 아키텍처의 오픈소스 오케스트레이션 스위트, gRPC/protobuf 기반 언어 비종속 모듈, UI 포함, Win/Mac/Linux
+  - GitHub: https://github.com/AFRL-ARES/ARES/releases , PyAres: https://pypi.org/project/PyAres
+  - arXiv(설계/사용법): https://arxiv.org/html/2604.03440v1
+- **IvoryOS / BayBE (토론토대 Acceleration Consortium + Merck)** — 기존 Python 자동화 코드를 드래그앤드롭 워크플로·최적화 실험으로 전환하는 오픈소스
+  - GitHub: https://github.com/AccelerationConsortium/ivoryOS , (BayBE GitHub 문서) https://github.com/AccelerationConsortium
+  - AC 관련 교육 랩 코드(MIT): https://github.com/AccelerationConsortium/ac-dev-lab
+
+### 2. 기기 제어·통신 표준 (실험장비 개발 관점)
+- **PyLabRobot** (MIT Media Lab 출신) — 하드웨어 비종속 파이썬 SDK. Hamilton STAR/Vantage, Tecan Freedom EVO, Opentrons OT-2 등을 동일 인터페이스로 제어(교차 플랫폼, Jupyter 즉시 실행). **장비 제어 학습 입문에 최적**
+  - GitHub: https://github.com/PyLabRobot/pylabrobot (MIT, 480+ stars), 문서: https://docs.pylabrobot.org
+- **SiLA2 표준** — 실험실 기기 공개 통신 표준(gRPC 기반). Python 구현 `pip install sila2`. ChemOS 2.0·차세대 장비들이 채택 중
+  - PyPI: https://pypi.org/project/sila2 , 공식: https://sila-standard.com
+- **Opentrons** — 오픈소스·저비용 액체핸들링 로봇(OT-2·Flex) + 프로토콜 API(Apache-2.0). 카테고리 G 참고
+  - GitHub: https://github.com/Opentrons/opentrons
+
+### 3. 공개 연구 데이터·벤치마크
+- **A-Lab** (LBNL, Nature 2023) — 로봇+AI로 무기 분말 신소재 41종을 17일간 자동 합성. 논문은 Open Access이며 데이터·설계도 GitHub에 공개
+  - 논문: https://www.nature.com/articles/s41586-023-06734-w
+  - 코드(신소재 스크리닝): https://github.com/mattmcdermott/novel-materials-screening
+- **Acceleration Consortium HuggingFace** — SDL·베이지안 최적화 벤치마크, 로봇 하드웨어 원격 제어 웹앱 관련 데이터셋
+  - https://huggingface.co/AccelerationConsortium
+
+### 4. 국내 관련 자료 (오픈소스·논문)
+- **"Self-driving laboratories in Korea"** (Digital Discovery, 2026) — 국내 SDL 현황 총괄 리뷰 (오픈 데이터/코드 및 KAIST 허성민·서울대 최장욱 등 참여)
+  - https://doi.org/10.1039/d6dd00024j
+- NRF 공고 참고: **AI-네이티브 첨단바이오 자율실험실**, **바이오파운드리 인프라 및 활용기반 구축** 사업 트리
+  - https://www.nrf.re.kr/biz/info/notice/list?biz_no=236
+- 국내 주력 기관(KIMS 오토노머스 랩, K-BioFAB 등)은 대부분 **자체 구축·비공개**로, 대학원 진학 시 SDL 코드 접근성은 연구실 선택 기준으로 유용합니다.
+
+> 💡 **활용 팁**: 장비 제어가 목표라면 `PyLabRobot`+`SiLA2`로 시작 → 폐루프 SDL은 `ChemOS 2.0`/`MADSci`/`ARES OS`의 시뮬레이터·Docker 예제를 로컬에서 먼저 돌려보고 → 실제 데이터는 `A-Lab`·`Acceleration Consortium` 데이터셋으로 벤치마크 연습하는 순서를 권장합니다.
+
+---
+
 ## 선택 전략 및 추천 접근 방식
 
 | 관심 방향 | 추천 기관/연구실 |
@@ -365,6 +410,9 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 - 정부출연연구소 연구직 → 카테고리 D (KRIBB·KIMM·KIMS·KRICT)
 - 국책사업·정부조달 관점 → 카테고리 H (바이오파운드리, K-문샷, 산업부 자율실험 과제 등)
 - 해외 진출 희망 → 카테고리 F (CMU MSAS, 토론토, UIUC, 리버풀) 및 카테고리 G (ECL, Ginkgo, Opentrons 등)
+
+**SDL 직접 구현·학습 관점**
+- 오픈소스 SDL 프레임워크·데이터·기기 표준 → "오픈소스 SDL 자료·코드" 섹션 (ChemOS 2.0, MADSci, ARES OS, PyLabRobot, SiLA2 등)
 
 ---
 
