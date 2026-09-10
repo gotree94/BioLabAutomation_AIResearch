@@ -181,7 +181,14 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 | **국가연구시설장비진흥센터 (NFEC)** | 연구장비 개발·관리, 국산장비 활용 지원 정책 | 장비개발 국책과제 창구 역할 |
 | **기초과학연구원 (IBS)** | 기초 과학 장비·계측 고도화, 나노/화학 연구 | 기초과학 장비 기술 |
 
-> 🎯 참고: 2026년 산업통상자원부 주도로 **2030년까지 국내 자율실험실 500개 구축** 계획이 수립되어 있으며, 정부출연연구소들의 자율실험실 관련 프로젝트가 빠르게 늘어나고 있습니다.
+> 🏛️ 관련 정부 과제·국책사업 (2025~2026 검색 기준)
+>
+> - **국가 바이오파운드리 인프라 및 활용기반 구축사업** (과기정통부·산업부 공동기획, 2025~2029): AI·로봇 접목 합성생물학 전 과정 자동화·고속화 인프라. 5년간 약 **1,263억 원** 확정(예타 통과), 전용 센터 건립·통합 플랫폼 구축·핵심장비 국산화 병행
+> - **K-문샷 AI 신약개발 혁신거점** (과기정통부, 2026.08 출범): AI 모델-자율 실험·검증-데이터 환류가 순환하는 'Lab-in-the-Loop' 신약 개발 체계 (대구 거점, 경북대병원 200만 명 데이터 활용)
+> - **자율실험실(SDL) 산·학·연 협의체** (과기정통부, 2025.08 출범): 24시간 가동 자율실험실 생태계 구축
+> - **자율실험·자율제조 인프라 구축 과제** (산업부, 2025~): 'AI+R&DI 추진전략' 후속, 과제당 국비 최대 100억 원(5년) 지원, 영리기관 참여 허용
+> - **AI·로봇 기반 신약개발 플랫폼 사업**: 보건복지부 구조기반 AI 신약개발 지원사업(JW중외제약), 과기정통부 AI-Medicine 멀티에이전트 플랫폼(GC녹십자) 등
+> - 특히 **민간 주도 국내 첫 자율실험실**이 한국제약바이오협회에 구축(약 25억 원, 보건복지부·한국보건산업진흥원 지원)되어 111일 연속 자동 실험을 수행하는 등 산업계 확산이 가속화되는 중입니다.
 
 ---
 
@@ -194,7 +201,10 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 - 제품: 노터블(NOTABLE)·노터블96·수터블(SUITABLE) — 노코드 드래그앤드롭 프로토콜 설계, 1채널~96채널
 - 삼성바이오로직스, KRIBB, 바이오니어(BNI), 카이스트 고객 확보
 - 오가노이드 제조·실시간 이미징 스테이션 개발, AI가 실험을 설계하고 로봇이 실행하는 **자율실험실(SDL) 구축** 목표
-- 존스홉킨스대학·KRICT·GIST·Quvit Bio와 국제 공동연구 컨소시엄(=약 100억 원 규모 시리즈A 투자 유치)
+- 국제 공동연구 컨소시엄: 존스홉킨스대학·KRICT·GIST·Quvit Bio와 5년·약 100억 원 규모 참여 (KBR 인터뷰 기준), JHU와 오가노이드 배양·약물 효능평가 전자동화 플랫폼 공동연구
+- **시리즈A 121억 원 투자 유치 완료 (2026.08)**: 이노폴리스파트너스 리드, IBK기업은행·캡스톤파트너스·호라이즌인베스트먼트·마그나인베스트먼트·퓨처플레이·나우아이비캐피탈 등 총 7개 기관 참여
+- **국가 R&D 총괄 주관**: 산업통상자원부 'ADC 자율제조' 및 '바이오파운드리 전용 액체핸들링 로봇 개발' 과제 등 총 8건 국가 R&D 수행 (누적 정부출연 연구비 100억 원 상회, 2025년 매출 12.9억·전년 대비 113% 성장)
+- FDA 21 CFR Part 11·ISO 13485 인증, KAIST·부산대·한국화학연구원 등 도입
 - 웹사이트: https://ablelabsinc.com
 - 키워드: 액체핸들링 자동화, 바이오실험 자동화, SDL
 
@@ -341,7 +351,7 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 - KIMS 오토노머스 랩 보도자료 (2025-06-30): https://www.kims.re.kr
 - 중앙대 융합공학부 교수진: https://ie.cau.ac.kr
 - 고려대 바이오의공학부: https://bmeng.korea.ac.kr
-- 성균관대 의과대학 IBM Lab: https://biomedical.skku.edu
+- 성균관대 의과대학 IBM Lab: https://biomedical.skku.edu/eng/html/research/laboratory_detail.asp?lab_code=40
 - Self-driving laboratories in Korea (Digital Discovery 2026): https://doi.org/10.1039/d6dd00024j
 - KAIST-써모피셔 SHARE Hub 보도 (KAIST 뉴스티임즈): https://times.kaist.ac.kr
 - 에이블랩스 보도 (바이오스펙테이터): https://www.biospectator.com/news/view/16985
@@ -353,13 +363,20 @@ A 카테고리에서 이미 다룬 KRIBB·KIMM·KIMS를 포함한 국내 연구 
 - 텍스턴/KIMS 오토노머스 랩 및 국내 SDL 관련 (Digital Discovery, 2026): https://doi.org/10.1039/d6dd00024j
 - 카네기멜론대 MSAS 프로그램: https://www.cmu.edu/cbd/msas
 - 토론토대 Matter Lab Self-driving Lab: https://www.matter.toronto.edu/basic-content-page/self-driving-lab
-- 리버풀대 Cooper 그룹 Sustainable Future Factory: https://news.liverpool.ac.uk/2025/11/19
+- 리버풀대 Cooper 그룹 Sustainable Future Factory (2025-11-19): https://news.liverpool.ac.uk/2025/11/19/university-partners-in-14m-project-to-create-a-sustainable-future-factory/
 - UIUC iBioFoundry: https://ibiofoundry.illinois.edu , https://biofoundry.web.illinois.edu
 - Global Biofoundry Alliance 관련 (PubMed/PMC): https://pubmed.ncbi.nlm.nih.gov/31068573
 - Emerald Cloud Lab: https://www.emeraldcloudlab.com
 - Opentrons: https://opentrons.com
 - Ginkgo Bioworks: https://ginkgobioworks.com (또는 https://ginkgo.bio)
 - 인공물 및 자율주행 관련 Fraunhofer IPA Laboratory Automation: https://www.ipa.fraunhofer.de
-- N-ERL/국가연구시설장비진흥센터(NFEC): https://nfec.go.kr
+- 국가연구시설장비진흥센터(NFEC): https://www.nfec.go.kr , ZEUS 장비활용종합포털: https://www.zeus.go.kr
+- 바이오파운드리 인프라·활용기반 구축사업 예타 통과 (동아사이언스): https://www.dongascience.com/ko/news/63370
+- 산업부 자율실험·자율제조 인프라 구축 과제 공모 (대한민국 정책브리핑): https://www.korea.kr/news/policyNewsView.do?newsId=148944190
+- 과기정통부 K-문샷 AI 신약개발 혁신거점 출범 (국가생명공학정책연구센터): https://www.bioin.or.kr/board.do?bid=division&cmd=view&num=335072
+- K-문샷·2030 AI바이오 인프라 구축 방안 (뉴스토마토): https://www.newstomato.com/readnews.aspx?no=1310186
+- 과기정통부 자율실험실(SDL) 생태계 구축 (대전일보): https://www.djournal.co.kr/news/article.html?no=97412
+- 에이블랩스 시리즈A 121억 유치 (공감신문): https://www.gokorea.kr/news/articleView.html?idxno=876660
+- 에이블랩스 자율실험실 인터뷰 (더바이오 영문, 2026): https://www.thebionews.net/news/articleView.html?idxno=26739
 
 > ⚠️ 주의사항: 연구 분야·소속·교수 이동 및 신설 여부는 수시로 변동될 수 있으므로, 각 기관 공식 홈페이지 및 최신 모집 요강을 별도로 확인하시기 바랍니다.
